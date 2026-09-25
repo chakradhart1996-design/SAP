@@ -1,0 +1,9 @@
+This post is less or more relevant to developer or technical consultants. Sometimes some program or application don’t work properly and throws some error message. The developer is trying to find the reason and from which section of the program the error message is raised.
+
+If the error message is raised  in GUI, then it is easy to find the message class , message number and then do a ‘/H’ , execute the program and put a break point on the message name , number and then the debugger stops when that error message appears.
+
+But developers life is little hard if some error message appears in web screen like web dynpro, FPM or BSP application. In such a case below trick can help you to find the message class and message number from the message text.
+
+Let’s consider the error message text appears as no – 010.  at this moment the message class / number not identified.
+
+https://sapcodes.com/wp-content/uploads/2018/10/124.jpg
